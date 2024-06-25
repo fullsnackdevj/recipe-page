@@ -99,3 +99,8 @@ h6 {
   --fw-reg: 600;
   --fw-reg: 700;
 }
+
+body {
+  font-family: var(--ff-youngSerif);
+  font-size: var(--fs-p);
+}
