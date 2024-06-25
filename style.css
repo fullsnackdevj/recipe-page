@@ -260,7 +260,7 @@ td:nth-child(2) {
     border-radius: 0;
   }
 
-  /* selecting flex items but not included 1st , 2nd and 3rd flex items
+  /* selecting flex items but not included 1st flex items
  */
   .flex-items:not(:nth-child(1)) {
     padding: 32px;
