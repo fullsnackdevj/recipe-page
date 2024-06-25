@@ -189,6 +189,10 @@ img {
   padding-bottom: 32px;
 }
 
+.flex-items:nth-child(6) p {
+  margin-bottom: 24px;
+}
+
 .prep-time {
   background-color: var(--clr-sd-roseWhite);
   padding: 28px;
