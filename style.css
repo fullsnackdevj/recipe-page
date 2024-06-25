@@ -86,7 +86,10 @@ h6 {
 
 ### Body Copy */
 
-  --fs-p: 16px;
+  --fs-lg: 40px;
+  --fs-md: 28px;
+  --fs-sm: 20px;
+  --fs-reg: 16px;
 
   /* ### Fonts */
 
@@ -101,6 +104,46 @@ h6 {
 }
 
 body {
-  font-family: var(--ff-youngSerif);
+  font-family: var(--ff-outfit);
   font-size: var(--fs-p);
+  background-color: var(--clr-sd-eggshell);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: var(--clr-sd-wengeBrown);
+}
+
+p {
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  font-family: var(--ff-youngSerif);
+  font-weight: 300;
+}
+
+h1 {
+  color: var(--clr-sd-darkCharcoal);
+  font-size: var(--fs-lg);
+}
+
+h2 {
+  font-size: var(--fs-md);
+  color: var(--clr-pr-darkRaspberry);
+}
+
+.container-wrapper {
+  width: 736px;
+  background-color: var(--clr-sd-white);
+  padding: 40px;
+  border-radius: 24px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
