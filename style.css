@@ -1,0 +1,34 @@
+/* ## Colors */
+
+/* ### Primary */
+
+:root {
+  --clr-pr-nutmeg: hsl(14, 45%, 36%);
+  --clr-pr-darkRaspberry: hsl(332, 51%, 32%);
+
+  /* ### Neutral */
+
+  --clr-sd-white: hsl(0, 0%, 100%);
+  --clr-sd-roseWhite: hsl(330, 100%, 98%);
+  --clr-sd-eggshell: hsl(30, 54%, 90%);
+  --clr-sd-lightGrey: hsl(30, 18%, 87%);
+  --clr-sd-wengeBrown: hsl(30, 10%, 34%);
+  --clr-sd-darkCharcoal: hsl(24, 5%, 18%);
+
+  /* ## Typography
+
+### Body Copy */
+
+  --fs-p: 16px;
+
+  /* ### Fonts */
+
+  --ff-youngSerif: "Young Serif", sans-serif;
+  --ff-outfit: "Outfit", sans-serif;
+
+  /* ### Weights */
+
+  --fw-reg: 400;
+  --fw-reg: 600;
+  --fw-reg: 700;
+}
